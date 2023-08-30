@@ -8,7 +8,7 @@ export function Navbar(){
         <NavbarBs className="bg-warning shadow-sm mb-3" sticky="top">
             <Container> 
                 <Nav className="me-auto  fw-bold fs-5">
-                   <Nav.Link to={"/Store"} as={NavLink}>Cafetería la mascota feliz</Nav.Link>
+                   <Nav.Link to={"/"} as={NavLink}>Cafetería la mascota feliz</Nav.Link>
                 </Nav>
                 {
                 cartQuantity > 0 && (
