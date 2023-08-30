@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "title":"Bebida fría",
+        "price":4,
+        "urlImage":"https://www.autosnack.com.co/images/Noticias-2017/datos-curiosos-de-las-bebidas-frias1.jpg",
+        "description":"Refresca tus sentidos con nuestra bebida fría, una sinfonía refrescante de sabores que despiertan el paladar. La elección perfecta para un placer instantáneo y fresco en cada sorbo."
+    },
+    {
+        "id":2,
+        "title":"Bebida caliente",
+        "price":3,
+        "urlImage":"https://www.hornitos.co/GrupoProductoImagen/gp931/4771.jpg",
+        "description":"Calidez indulgente en cada sorbo: nuestra bebida caliente encanta con su equilibrio perfecto de sabores y aroma reconfortante. Una experiencia irresistible que eleva tus momentos de disfrute."
+    },
+    {
+        "id":3,
+        "title":"Postre de café",
+        "price":5,
+        "urlImage":"https://www.hogarmania.com/archivos/201905/postres-cafe-1280x720x80xX.jpg",
+        "description":"Seducción en cada cucharada: nuestro postre de café deslumbra con capas irresistibles de sabor aterciopelado. Un deleite cautivador que transforma el café en una experiencia dulce y memorable."
+    },
+    {
+        "id":4,
+        "title":"Té",
+        "price":2.5,
+        "urlImage":"https://static.eldiario.es/clip/1a916b0b-a4db-40d9-bc84-78ac9fb04a29_16-9-aspect-ratio_default_0.jpg",
+        "description":"Sumérgete en la frescura pura de nuestro té herbal: una mezcla deliciosa y relajante que revitaliza tus sentidos en cada sorbo. Una experiencia herbal auténtica que te transporta a la calma con su refrescante y exquisito sabor."
+    },
+    {
+        "id":5,
+        "title":"Sandwich",
+        "price":3,
+        "urlImage":"https://assets.unileversolutions.com/recipes-v2/216814.jpg",
+        "description":"Una obra maestra entre panes: nuestro sándwich combina carnes frías, vegetales frescos, quesos selectos y salsas únicas para una experiencia insuperable. Sabores inigualables en cada mordisco."
+    }
+]
