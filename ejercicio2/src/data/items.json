@@ -1,37 +1,72 @@
 [
     {
         "id":1,
-        "title":"Bebida fría",
-        "price":4,
-        "urlImage":"https://www.autosnack.com.co/images/Noticias-2017/datos-curiosos-de-las-bebidas-frias1.jpg",
-        "description":"Refresca tus sentidos con nuestra bebida fría, una sinfonía refrescante de sabores que despiertan el paladar. La elección perfecta para un placer instantáneo y fresco en cada sorbo."
+        "title":"Café Mocca Helado",
+        "price":3.1,
+        "urlImage":"https://assets.unileversolutions.com/recipes-v2/42294.jpg",
+        "description":"Refresca tu paladar con nuestro Café Mocha Helado. Una mezcla armoniosa de café espresso suave, indulgente chocolate y la frescura del hielo, todo en un solo sorbo. Sumérgete en la delicia refrescante con toques de energía y dulzura en cada momento."
     },
     {
         "id":2,
-        "title":"Bebida caliente",
-        "price":3,
-        "urlImage":"https://www.hornitos.co/GrupoProductoImagen/gp931/4771.jpg",
-        "description":"Calidez indulgente en cada sorbo: nuestra bebida caliente encanta con su equilibrio perfecto de sabores y aroma reconfortante. Una experiencia irresistible que eleva tus momentos de disfrute."
+        "title":"Licor de Café y Brandy",
+        "price":5,
+        "urlImage":"https://www.barexpres.com/wp-content/uploads/2012/12/carajillo-banner.jpg",
+        "description":"Descubre el lujo en cada sorbo con nuestro Licor de Café y Brandy. Una fusión cautivadora que combina la riqueza del brandy con el toque estimulante del café. Sumérgete en una experiencia de sabor única y sofisticada que deleitará tus sentidos en cada gota."
     },
     {
         "id":3,
-        "title":"Postre de café",
-        "price":5,
-        "urlImage":"https://www.hogarmania.com/archivos/201905/postres-cafe-1280x720x80xX.jpg",
-        "description":"Seducción en cada cucharada: nuestro postre de café deslumbra con capas irresistibles de sabor aterciopelado. Un deleite cautivador que transforma el café en una experiencia dulce y memorable."
+        "title":"Café espresso",
+        "price":2.6,
+        "urlImage":"https://www.cafe-mx.com/blog/app/assets/media/2018/08/cafe-expreso.jpg",
+        "description":"Experimenta la esencia pura del café con nuestro Café Espresso. Un sorbo audaz y concentrado que captura la complejidad de los granos finamente molidos y el proceso de extracción única. Descubre la pasión por el sabor en cada gota de esta creación intensa y cautivadora."
     },
     {
         "id":4,
-        "title":"Té",
-        "price":2.5,
-        "urlImage":"https://static.eldiario.es/clip/1a916b0b-a4db-40d9-bc84-78ac9fb04a29_16-9-aspect-ratio_default_0.jpg",
-        "description":"Sumérgete en la frescura pura de nuestro té herbal: una mezcla deliciosa y relajante que revitaliza tus sentidos en cada sorbo. Una experiencia herbal auténtica que te transporta a la calma con su refrescante y exquisito sabor."
+        "title":"Café Americano",
+        "price":2.6,
+        "urlImage":"https://bittercoffees.com/wp-content/uploads/2022/02/Cafe%CC%81-Americano-.jpeg",
+        "description":"Descubre nuestra especialidad: el Café Americano. Una infusión suave y reconfortante que combina la intensidad del espresso con la suavidad del agua caliente, ofreciendo un sabor robusto en cada sorbo. Perfecto para quienes buscan una experiencia de café amplia y satisfactoria."
     },
     {
         "id":5,
-        "title":"Sandwich",
+        "title":"Flan de café",
+        "price":2,
+        "urlImage":"https://imag.bonviveur.com/presentacion-principal-del-flan-de-cafe.jpg",
+        "description":"Deléitate con nuestra tentadora creación: el flan de Café. Un postre exquisitamente suave y sedoso que combina la elegancia del flan con el cautivante sabor del café. Sumérgete en la dulzura y el aroma en cada delicado bocado. ¡Una experiencia única para los amantes del café y los placeres dulces!"
+    },
+    {
+        "id":6,
+        "title":"Tarta de café",
         "price":3,
-        "urlImage":"https://assets.unileversolutions.com/recipes-v2/216814.jpg",
-        "description":"Una obra maestra entre panes: nuestro sándwich combina carnes frías, vegetales frescos, quesos selectos y salsas únicas para una experiencia insuperable. Sabores inigualables en cada mordisco."
+        "urlImage":"https://okdiario.com/img/2018/04/20/receta-de-tarta-de-cafe-2.jpeg",
+        "description":"Eleva tu experiencia culinaria con nuestra Tarta de Café. Un deleite irresistible que combina la suavidad de un postre clásico con el sabor audaz del café. Sumérgete en capas de satisfacción y aromas cautivadores en cada exquisito bocado."
+    },
+    {
+        "id":7,
+        "title":"Yuenyeung",
+        "price":5,
+        "urlImage":"https://carmyy.com/wp-content/uploads/2022/02/Grass-Jelly-Milk-Tea-7.jpg",
+        "description":"Descubre un nuevo nivel de sabor con nuestro Café Yuenyeung. Una fusión única de café y té, equilibrada con la cremosidad de la leche. Sumérgete en esta armonía de sabores y texturas que te brindarán una experiencia refrescante y reconfortante en cada sorbo."
+    },
+    {
+        "id":8,
+        "title":"kopi cham",
+        "price":5,
+        "urlImage":"https://perfectdailygrind.com/wp-content/uploads/2020/10/Kopi-Cham-1.jpg",
+        "description":"Explora un mundo de sabores con nuestro Café Kopi Cham. Una mezcla cautivadora de café, té y leche que crea una sinfonía de aromas y texturas en cada taza. Sumérgete en esta experiencia exquisita y atrayente que te transportará a nuevos niveles de satisfacción."
+    },
+    {
+        "id":9,
+        "title":"Sandwich de pollo",
+        "price":2,
+        "urlImage":"https://assets.elgourmet.com/wp-content/uploads/2023/03/s-ndw_AfsS859PRoHcJpKwd6r4Me0FUBDtCg-1024x683.png.webp",
+        "description":"Saborea la perfección entre dos panes con nuestro Sandwich de Pollo. Jugosos trozos de pollo a la parrilla acompañados de frescos ingredientes, todo envuelto en un pan tierno. Experimenta el placer de cada mordisco en este clásico reinventado que satisfará tus antojos."
+    },
+    {
+        "id":10,
+        "title":"Panini",
+        "price":2.8,
+        "urlImage":"https://assets.kraftfoods.com/recipe_images/opendeploy/126710_640x428.jpg",
+        "description":"Descubre la fusión de sabores en nuestro Panini gourmet. Capas de ingredientes de calidad se combinan en un pan crujiente, tostado a la perfección. Disfruta de una experiencia culinaria irresistible que te llevará en un viaje de texturas y delicias en cada bocado."
     }
 ]
