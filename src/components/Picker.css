@@ -1,0 +1,40 @@
+.pickerContainer{
+align-items: center;
+    display: table;
+    height: 50px;
+    
+    
+}
+.boton{
+    border-radius: 5px;
+
+    padding: 9px;
+    border: 1px solid #ddd;
+    font-weight: 600;
+    color: #868585;
+    font-size: 16px;
+}
+.picker{
+    text-align-last: center;
+    padding: 9px;
+    width:400px;
+    border-radius: 1px;
+    border: 1px solid #ddd;
+    font-weight: 600;
+    color: #868585;
+    font-size: 16px;
+   
+}
+
+.pickeritems{
+text-align: center;
+    font-weight: 600;
+    color: #868585;
+    font-size: 16px;
+}
+
+.tabla{
+    width: 300px;
+    column-span: 2;
+    
+}
