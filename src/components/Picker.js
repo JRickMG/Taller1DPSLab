@@ -10,6 +10,7 @@ var borrar = (dltproducto) => {
 var newareglo = almacenProductos.filter(dlt=>dlt.value!==dltproducto.value);
 almacenProductos=newareglo;
 setalmacenProductos(almacenProductos);
+
 }
 
   const [productosSeleccionado, setproductosSeleccionado] = useState([]);
@@ -26,13 +27,17 @@ const TotalProductos = ( cant, product_to_buy) =>{
   var precio_string = product_to_buy.split('$')
   var precio = parseFloat(precio_string[1])
 var total = (parseInt(cant)*precio);
-sumarValor(total)
+ var totshow =sumarValor(total)
+ console.log(totshow)
+ return totshow
 }
 
   const sumarValor = (valor) => {
     var totin = 0
 var tot = valor + totin
 totin=tot
+console.log(totin)
+return totin
   };
 
   
@@ -59,7 +64,7 @@ options = { options.map(arr=>({label:arr.nombre+" $"+arr.precio, value:arr.id}))
   ))}
   <tr>
     <td>
-      <p style={{position: 'relative', right: '-300px'}} ></p>
+      <p style={{position: 'relative', right: '-300px'}} >total: {}</p>
     </td>
   </tr>
 
