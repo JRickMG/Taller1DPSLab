@@ -13,6 +13,11 @@ setalmacenProductos(almacenProductos);
 
 }
 
+const addprice = ( precio ) => {
+  setPrecios([...allPrecios,precio])
+console.log(allPrecios)
+}
+  const [allPrecios, setPrecios] = useState([]);
   const [productosSeleccionado, setproductosSeleccionado] = useState([]);
   var [almacenProductos, setalmacenProductos] = useState([]);
 
@@ -27,18 +32,21 @@ const TotalProductos = ( cant, product_to_buy) =>{
   var precio_string = product_to_buy.split('$')
   var precio = parseFloat(precio_string[1])
 var total = (parseInt(cant)*precio);
- var totshow =sumarValor(total)
- console.log(totshow)
- return totshow
+ addprice(total)
+ sumartotal()
 }
 
-  const sumarValor = (valor) => {
-    var totin = 0
-var tot = valor + totin
-totin=tot
-console.log(totin)
-return totin
-  };
+const sumartotal = () => {
+  let suma = 0; // Inicializamos la variable suma en 0
+
+  for (let i = 0; i < allPrecios.length; i++) {
+    suma += allPrecios[i]; // Agregamos el valor actual del arreglo a la suma
+  }
+ 
+};
+
+
+ 
 
   
 
@@ -64,7 +72,7 @@ options = { options.map(arr=>({label:arr.nombre+" $"+arr.precio, value:arr.id}))
   ))}
   <tr>
     <td>
-      <p style={{position: 'relative', right: '-300px'}} >total: {}</p>
+      <p style={{position: 'relative', right: '-300px'}} >total:{}</p>
     </td>
   </tr>
 
